@@ -1,5 +1,24 @@
 <script>
-
+export default{
+  data() {
+    return {
+      contacts:[{'image':'linkedin.png',
+                  'text':'Il mio profilo Linkedin',
+                  'link':'https://www.linkedin.com/in/yarinarducci/',
+                  },
+                  {'image':'github.svg',
+                  'text':'Il mio profilo Github',
+                  'link':'https://www.linkedin.com/in/yarinarducci/',
+                  },
+                  {'image':'gmail.svg',
+                  'text':'narducciyari@gmail.com',
+                  'link':'#',
+                  },
+                
+                ]
+    }
+  },
+}
 </script>
 
 <template>
@@ -9,19 +28,12 @@
         <div style="width: 100%"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=Via%20dell'olmata%2090%20+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="500" frameborder="0"><a href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe></div>
     </div>
    <footer >
-        <div  id="link_container">
+        <div  id="link_container" v-for="contact in contacts">
            <div class="link-contact mx-3 my-2">
-            <img src="linkedin.png" alt="">
-             <a  class="text-white text-decoration-none mx-3" href="https://www.linkedin.com/in/yarinarducci/">Il mio profilo linkedin</a>
+            <img :src="contact.image" alt="">
+             <a  class="text-white text-decoration-none mx-3" :href="contact.link">{{contact.text}}</a>
            </div>
-           <div class="link-contact mx-3  my-2">
-            <img id="git_filter" src="github.svg" alt="">
-            <a class="text-white text-decoration-none mx-3" href="https://github.com/Knil88">il mio profilo github</a>
-           </div>
-           <div class="link-contact mx-3 my-2">
-            <img src="mail.svg" alt="">
-            <a class="text-white text-decoration-none mx-3 " href="#"> narducciyari@gmail.com</a>
-           </div>
+         
         </div>
    </footer>
         
