@@ -174,7 +174,7 @@ margin: auto;
 
   transform: rotate(10deg);
   
-  background-image: url('spotify.png');
+  background-image: url('https://media.licdn.com/dms/image/C4D2DAQGnEigTEzsfDA/profile-treasury-image-shrink_800_800/0/1678103538236?e=1678716000&v=beta&t=rUP2jaFOeFLBAL_5mua41AmRhs6jAO8AlScRVCtHEUE');
 
   background-size: contain;
 
@@ -195,7 +195,7 @@ margin: auto;
 
   transform: rotate(-5deg);
 
-  background-image: url('Discord.png');
+  background-image: url('https://media.licdn.com/dms/image/C4D2DAQF9Ee4FQajMjw/profile-treasury-image-shrink_800_800/0/1678103738771?e=1678716000&v=beta&t=X_8KTtM8SapqOOxU86VVXR7bF4uuinfTamK2dxUF08M');
 
   background-size: contain;
 
@@ -219,7 +219,7 @@ margin: auto;
 
   height: 500px;
 
-  background-image: url('dadi.png');
+  background-image: url('https://media.licdn.com/dms/image/C4D2DAQF_fJxnFgRwAA/profile-treasury-image-shrink_800_800/0/1678103602625?e=1678716000&v=beta&t=Ww-zZgL5_Fvbly06ZdZfIUAvk3Kr2NMGsUCODo94CKo');
 
   background-size: contain;
 
