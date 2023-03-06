@@ -161,7 +161,7 @@ margin: auto;
 
     margin: 20px auto;
   }
- 
+  
 .bg2 {
 
   z-index: 2;

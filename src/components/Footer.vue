@@ -47,8 +47,10 @@ footer{
     background-color: rgba($color: #000000, $alpha: 0.5);
     backdrop-filter: blur(4px);
     margin: 0 auto;
+    width: 100vw;
+    overflow: hidden;
     
-    overflow-x: hidden;
+  
     padding: 20px;
   }
   .link_contact{
