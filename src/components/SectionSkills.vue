@@ -125,7 +125,7 @@ export default{
 <style lang="scss">
 .container_ico img {
 
-    width: 100%;
+    
     min-height: 41px;
     filter: invert(80%) ;
    
