@@ -3,7 +3,7 @@
 export default{
     data() {
         return {
-           
+           //Creiamo un array di oggetti per i link della navbar
             
             links:[
                 {'name':'Home',
@@ -30,18 +30,30 @@ export default{
 </script>
 
 <template>
+
    <header class="animate__animated animate__fadeInDown mb-5 fixed-top ">
+
     <nav class="navbar navbar-expand-lg navbar-dark  " aria-label="Fifth navbar example">
+
     <div class="container-fluid">
+
       <img class="logo_portfolio rounded-5" src="../assets/logo.png" alt="">
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
+
       </button>
 
       <div class="navbar-collapse collapse show " id="navbarsExample05" style="">
+
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <!-- agganciamo l'array di oggetti con il ciclo for e stampiamo a schermo -->
+
           <li class="nav-item" v-for="link in links">
+
             <a class="nav-link item" :href =' link.anchor '>{{link.name}}</a>
+            
           </li>
         </ul>
      </div>
@@ -53,11 +65,14 @@ export default{
 
    <div class="'container-fluid  p-relative jumbo_hero mb-5" id="Home">
    
-    
-     
       <div class="px-4 py-5 text-center my-5 animate__animated animate__fadeInDown bg-black p-2  rounded-1" id="hero_container" >
+
         <p class="ele_ment">Salve mi chiamo Yari </p>
+
         <div class="col-lg mx-auto">
+          
+          <!-- colleghiamo l'id  element con la libreria typed.js -->
+
           <p class="mb-4  w-100 ele_ment" id="element" ></p>
        
       </div>
@@ -68,6 +83,9 @@ export default{
 </template>
 
 <style lang="scss">
+
+//stile intestazione
+
 header{
   border: 1px solid white;
   background-color: rgba($color: #000000, $alpha: 0.5);
@@ -81,6 +99,9 @@ header{
 .logo_portfolio{
     max-width: 50px;
 }
+
+//Animazione Logo
+
 @keyframes swing {
     0% {
       transform: rotate(0deg);
@@ -116,6 +137,8 @@ header{
       transform: rotate(0deg);
     }
   }
+
+  //Hover link navbar
   
 .nav_link:hover {
     display: inline-block;
@@ -134,6 +157,7 @@ header{
     filter: blur(1px);
   }
   
+  //stile jumbotron
   
   .jumbo_hero{
     display: flex;
