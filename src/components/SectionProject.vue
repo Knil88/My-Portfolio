@@ -161,12 +161,7 @@ margin: auto;
 
     margin: 20px auto;
   }
-  .conbg {
-
-  width: 100%;
-
-  height: 500px;
-}
+ 
 .bg2 {
 
   z-index: 2;
