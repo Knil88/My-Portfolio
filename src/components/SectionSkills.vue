@@ -2,6 +2,7 @@
 export default{
     data() {
         return {
+          
           //Array di oggetti con le competenze e descrizioni
 
             cards:[{
