@@ -8,7 +8,7 @@ export default{
                   },
                   {'image':'github.svg',
                   'text':'Il mio profilo Github',
-                  'link':'https://www.linkedin.com/in/yarinarducci/',
+                  'link':'https://github.com/Knil88',
                   },
                   {'image':'gmail.svg',
                   'text':'narducciyari@gmail.com',
