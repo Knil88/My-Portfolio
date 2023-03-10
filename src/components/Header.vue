@@ -67,7 +67,7 @@ export default{
    
       <div class="px-4 py-5 text-center my-5 animate__animated animate__fadeInDown bg-black p-2  rounded-1" id="hero_container" >
 
-        <p class="ele_ment">Salve mi chiamo Yari </p>
+        <p class="ele_ment">Ciao mi chiamo Yari </p>
 
         <div class="col-lg mx-auto">
           

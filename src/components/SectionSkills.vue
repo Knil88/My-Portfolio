@@ -2,7 +2,7 @@
 export default{
     data() {
         return {
-          
+
           //Array di oggetti con le competenze e descrizioni
 
             cards:[{
@@ -132,13 +132,22 @@ export default{
    
 }
 .paragrap_h{
+
   color: #09d99a;
+
   border: 10px solid whitesmoke;
+
   background-color: black;
+
   font-family: 'Anonymous Pro', monospace;
+
   padding: 15px;
+
   font-size: 14px;
+
   max-height: 250px;
+
   overflow-y: scroll;
+  
 }
 </style>
