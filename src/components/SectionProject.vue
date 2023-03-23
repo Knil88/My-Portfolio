@@ -38,25 +38,25 @@
         <div class="carousel-item active">
           <img class="img-fluid " :src="images[0]" alt="" min-width="800" min-height="400">
 
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+          <div class="carousel-caption d-none d-md-block description_container">
+            <h5>Spotify</h5>
+            <p>Rappresentazione della web app di spotify</p>
           </div>
         </div>
         <div class="carousel-item">
           <img class="img-fluid " :src="images[1]" alt="" min-width="800" min-height="400">
 
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+          <div class="carousel-caption d-none d-md-block description_container">
+            <h5>MaxCoach</h5>
+            <p>Progetto finale della parte front-end di Boolean</p>
           </div>
         </div>
         <div class="carousel-item">
           <img class="img-fluid " :src="images[2]" alt="" min-width="800" min-height="400">
 
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+          <div class="carousel-caption d-none d-md-block description_container">
+            <h5>Discord</h5>
+            <p>Sito ispitrato a discord</p>
           </div>
         </div>
       </div>
@@ -150,6 +150,17 @@ height: 100px;
 width: 85%;
 bottom: 43%;
 margin: auto 7%;
+}
+
+.description_container{
+ 
+    color: #09d99a;
+    align-self: center;
+    border: 10px solid rgb(134, 3, 3);
+    background-color:rgba($color: #000000, $alpha: 0.6);
+    backdrop-filter: blur(4px);
+    font-size: 13px;
+    
 }
 
 // Responsive
