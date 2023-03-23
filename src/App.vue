@@ -43,7 +43,10 @@ mounted() {
  <div class="text-center" v-if="!isLoaded">
     
   <div class="Flex_Load">
-    <div class="lds-facebook align-self-center"><div></div><div></div><div></div></div>
+   <div class="pos_img">
+     <img class="img_loading" src="./assets/AP_LWHITE.png" alt="">
+   </div>
+   <img id="loader"  src="./assets/Eclipse-1s-200px.svg" alt="">
   </div>
  </div >
 <div v-else>
@@ -94,14 +97,5 @@ mounted() {
     top: 24px;
     height: 32px;
   }
-}
-.Flex_Load{
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction:column ;
-  align-items: center;
-  justify-content: center;
-  position: relative
 }
 </style>
