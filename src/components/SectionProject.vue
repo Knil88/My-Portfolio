@@ -139,6 +139,19 @@ margin: auto;
 
 }
 
+.responsive_button{
+ 
+
+  
+
+  position: absolute;
+
+height: 100px;
+width: 85%;
+bottom: 43%;
+margin: auto 7%;
+}
+
 // Responsive
 @media (max-width: 400px) {
   #github_link{
@@ -150,7 +163,17 @@ margin: auto;
     
   
   }
+ .responsive_button{
  
+
+    position: absolute;
+    z-index: 10000;
+    bottom: 40%;
+    width: 100%;
+    height: 75px;
+
+  
+ }
 }
 
   
