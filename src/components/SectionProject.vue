@@ -163,13 +163,7 @@ margin: auto 7%;
 
 
   }
- .responsive_button{
-
-
-    
-
-
- }
+ 
 }
 
 
