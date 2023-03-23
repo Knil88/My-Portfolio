@@ -25,7 +25,7 @@ export default{
 
     <h2 class="text-center text-white my-3" id="MyContacts">My contacts</h2>
     <div class="g_maps ">
-      <div style="width: 100%"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=viale%20dell'olmata%2090d+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe></div>
+      <!-- <div style="width: 100%"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=viale%20dell'olmata%2090d+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe></div> -->
     </div>
    <footer >
         <div  id="link_container" v-for="contact in contacts">
