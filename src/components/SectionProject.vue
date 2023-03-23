@@ -3,7 +3,7 @@
     data() {
         return {
           images:['spotify.png','MaxCoach.png','Discord.png']
-       
+
         }
     },
  }
@@ -28,16 +28,16 @@
       <!-- Richiamo link github -->
 
       Questi sono alcuni dei miei progetti. <br> Per visionarne  altri  guarda il mio profilo <a class="text-decoration-none "  href="https://github.com/Knil88">Github</a>
-   
+
     </div>
-    
+
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-     
+
       <div class="carousel-inner responsive_carousel">
         <div class="carousel-item active">
           <img class="img-fluid " :src="images[0]" alt="" min-width="800" min-height="400">
-    
+
           <div class="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
@@ -45,7 +45,7 @@
         </div>
         <div class="carousel-item">
           <img class="img-fluid " :src="images[1]" alt="" min-width="800" min-height="400">
-    
+
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
@@ -53,7 +53,7 @@
         </div>
         <div class="carousel-item">
           <img class="img-fluid " :src="images[2]" alt="" min-width="800" min-height="400">
-    
+
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p>
@@ -73,8 +73,8 @@
     </div>
 
 </section>
-        
-    
+
+
 </template>
 
 <style lang="scss">
@@ -107,7 +107,7 @@ margin: auto;
 
 
 }
- 
+
 
   #github_link{
 
@@ -127,7 +127,7 @@ margin: auto;
 
     margin: 20px auto;
   }
-  
+
 
 
 
@@ -140,9 +140,9 @@ margin: auto;
 }
 
 .responsive_button{
- 
 
-  
+
+
 
   position: absolute;
 
@@ -160,21 +160,17 @@ margin: auto 7%;
 
   .responsive_carousel{
     width: 100% !important;
-    
-  
+
+
   }
  .responsive_button{
- 
 
-    position: absolute;
-    z-index: 10000;
-    bottom: 40%;
-    width: 100%;
-    height: 75px;
 
-  
+    
+
+
  }
 }
 
-  
+
 </style>
