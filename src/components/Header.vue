@@ -181,7 +181,7 @@ header{
     color: #09d99a;
     align-self: center;
     border: 10px solid whitesmoke;
-    min-width: 420px;
+    min-width: 340px;
    
    
    

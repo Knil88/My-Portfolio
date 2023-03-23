@@ -12,4 +12,5 @@ box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Bebas Neue', cursive;
+    overflow-x: hidden;
 }

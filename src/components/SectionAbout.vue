@@ -73,4 +73,23 @@ export default{
     
 }
 
+@media (max-width: 450px) {
+    .paragrap_h{
+        
+        min-height: 480px;
+        font-size: 12px;
+       
+    }
+    
+    #im_age{
+       min-width: 250px;
+       padding-top: 20%; 
+       min-height: 250px;
+       
+        
+       
+        
+    }
+}
+
 </style>
