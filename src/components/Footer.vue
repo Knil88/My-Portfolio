@@ -78,6 +78,9 @@ footer{
       width: 100%;
       
     }
+    footer{
+     font-size: 12px;
+      }
   }
  
   
