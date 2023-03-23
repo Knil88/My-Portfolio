@@ -33,12 +33,8 @@
     
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner w-75 m-auto">
+     
+      <div class="carousel-inner responsive_carousel">
         <div class="carousel-item active">
           <img class="img-fluid " :src="images[0]" alt="" min-width="800" min-height="400">
     
@@ -64,14 +60,16 @@
           </div>
         </div>
       </div>
+     <div class="responsive_button">
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon w-100" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon w-100 " aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+     </div>
     </div>
 
 </section>
@@ -110,11 +108,7 @@ margin: auto;
 
 }
  
-  #nxt,#prw{
 
-    width: 30%;
-
-  }
   #github_link{
 
     color: #09d99a;
@@ -134,175 +128,15 @@ margin: auto;
     margin: 20px auto;
   }
   
-.bg2 {
 
-  z-index: 2;
 
-  position: relative;
 
-  width: 70%;
-  
-  margin: 100px auto;
 
-  transform: rotate(10deg);
-  
-  background-image: url('https://media.licdn.com/dms/image/C4D2DAQGnEigTEzsfDA/profile-treasury-image-shrink_800_800/0/1678103538236?e=1678716000&v=beta&t=rUP2jaFOeFLBAL_5mua41AmRhs6jAO8AlScRVCtHEUE');
 
-  background-size: contain;
-
-  background-repeat:no-repeat;
-
-  background-position: center;
-
-  background-color: transparent;
-  
-}
-.bg1 {
-
-  z-index: 3;
-
-  position: relative;
-
+.responsive_carousel{
+  width: 75% !important;
   margin: auto;
 
-  transform: rotate(-5deg);
-
-  background-image: url('https://media.licdn.com/dms/image/C4D2DAQF9Ee4FQajMjw/profile-treasury-image-shrink_800_800/0/1678103738771?e=1678716000&v=beta&t=X_8KTtM8SapqOOxU86VVXR7bF4uuinfTamK2dxUF08M');
-
-  background-size: contain;
-
-  background-repeat:no-repeat;
-
-  background-position: center;
-
-  background-color: transparent;
-  
-}
-
-.bg {
-
-  z-index: 4;
-
-  position: relative;
-
-  margin: auto;
-
-  transform: rotate(-5deg);
-
-  height: 500px;
-
-  background-image: url('https://media.licdn.com/dms/image/C4D2DAQF_fJxnFgRwAA/profile-treasury-image-shrink_800_800/0/1678103602625?e=1678716000&v=beta&t=Ww-zZgL5_Fvbly06ZdZfIUAvk3Kr2NMGsUCODo94CKo');
-
-  background-size: contain;
-
-  background-repeat:no-repeat;
-
-  background-position: center;
-
-  background-color: transparent;
-  
-}
-.bg-text {
-
-  width: 100%;
-
-  position: absolute;
-
-  display: inline-block;
-
-  bottom: 0;
-
-  left: 0;
-
-}
-.bg-text a {
-
-  margin: 5px;
-
-  float: right;
-
-}
-
-#bg1:target .bg {
-
-  animation: ciut 1s forwards;
-
-}
-#bg1:target {
-
-  animation: fre 0.3s forwards;
-
-}
-#bg2:target .bg1 {
-  animation: ciut 1s forwards;
-}
-#bg2:target {
-
-  animation: fre1 0.3s forwards;
-
-}
-#conbg:target .bg2 {
-
-  animation: ciut1 1s;
-
-}
-@keyframes fre1 {
-
-  0% {
-
-    transform: rotate(10deg);
-  }
-  100% {
-
-    transform: rotate(0deg);
-
-  }
-}
-@keyframes fre {
-
-  0% {
-    transform: rotate(-5deg);
-
-  }
-  100% {
-
-    transform: rotate(-10deg);
-
-  }
-}
-@keyframes ciut {
-
-  0% {
-
-    opacity: 1;
-
-    transform: rotate(-5deg) scale(1);
-
-  }
-  100% {
-
-    opacity: 0;
-
-    transform: rotate(360deg) scale(0);
-
-  }
-}
-@keyframes ciut1 {
-
-  0% {
-
-    opacity: 0;
-
-    transform: rotate(0deg) scale(0);
-
-  }
-  100% {
-
-    opacity: 1;
-
-    transform: rotate(370deg) scale(1);
-    
-  }
 }
 
 // Responsive
@@ -310,6 +144,14 @@ margin: auto;
   #github_link{
     max-width: 320px;
   }
+
+  .responsive_carousel{
+    width: 100% !important;
+    
+  
+  }
+ 
 }
+
   
 </style>

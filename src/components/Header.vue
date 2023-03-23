@@ -162,14 +162,14 @@ header{
   .jumbo_hero{
     display: flex;
     justify-content: center;
-    width: 100vw;
-    min-height: 78vh;
+    padding-top: 15%;
+    
     
    
   }
   
   .ele_ment{
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Anonymous Pro', monospace;
    
     
