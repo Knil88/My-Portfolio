@@ -87,7 +87,7 @@ export default{
 //stile intestazione
 
 header{
-  border: 1px solid white;
+  
   background-color: rgba($color: #000000, $alpha: 0.5);
   backdrop-filter: blur(4px);
   margin: 0 auto;
