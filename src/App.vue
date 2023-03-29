@@ -46,9 +46,7 @@ mounted() {
    <div class="pos_img">
      <img class="img_loading" src="logo.png" width="50" height="50" alt="">
    </div>
-   <div class="rounded-5">
-    <img id="loader rounded-5"  src="./assets/Eclipse-1s-200px.svg" alt="">
-   </div>
+   
   </div>
  </div >
 <div v-else>
